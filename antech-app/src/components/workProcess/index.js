@@ -1,6 +1,6 @@
 import React from 'react'
-import img1 from "../../images/feature-s4-shape.png"
-import img2 from "../../images/feature-s4-shape2.png"
+import img1 from "../../../public/images/feature-s4-shape.png"
+import img2 from "../../../public/images/feature-s4-shape2.png"
 import Image from 'next/image'
 export default function WorkProcess () {
    
