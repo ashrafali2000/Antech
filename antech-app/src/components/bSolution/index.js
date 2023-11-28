@@ -40,6 +40,8 @@ const responsive = {
 };
 export default function Bsolution() {
     return(
+        <div className="pt-40 px-16">
+
         <Carousel
         responsive={responsive}
         autoPlay={true}
@@ -48,16 +50,17 @@ export default function Bsolution() {
         showDots={true}
         infinite={true}
         partialVisible={false}
-      >
+        >
         {imagesUrlShirts.map((img) => (
           <div key={Math.random()}>
             <Image
               className="md:w-[300px] md:h-[300px] w-[200px] h-[200px]  object-cover object-center"
               src={img.url}
-            />
+              />
           </div>
         ))}
       </Carousel>
+        </div>
     )
 }
 
