@@ -2,7 +2,7 @@ import React from 'react'
 import img1 from "../../images/feature-s4-shape.png"
 import img2 from "../../images/feature-s4-shape2.png"
 import Image from 'next/image'
-const WorkProcess = () => {
+export default function WorkProcess () {
    
   return (
     <div className='bg-gray-100 pt-10'>
@@ -50,4 +50,4 @@ const WorkProcess = () => {
   )
 }
 
-export default WorkProcess
+// export default WorkProcess

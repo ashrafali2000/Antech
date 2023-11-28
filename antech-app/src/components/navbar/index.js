@@ -1,5 +1,5 @@
 import { Fragment, useState } from 'react'
-import logo from "../../images/feature5-1.png"
+// import logo from "../../images/feature5-1.png"
 import { Dialog, Disclosure, Popover, Transition } from '@headlessui/react'
 import {
   ArrowPathIcon,
