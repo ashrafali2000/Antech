@@ -1,4 +1,5 @@
 
+import Bsolution from '@/components/bSolution'
 import DisCompany from '@/components/disCompany'
 import HeroSection from '@/components/heroSection'
 import Navbar from '@/components/navbar'
@@ -12,6 +13,7 @@ export default function Home() {
     <WorkProcess></WorkProcess>
     <DisCompany></DisCompany>
     <Skills></Skills>
+    <Bsolution></Bsolution>
    </>
   )
 }
