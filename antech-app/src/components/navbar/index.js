@@ -47,7 +47,12 @@ function classNames(...classes) {
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const [open, setopen] = useState(false)
+  const [hover, setIsHover] = useState(false);
+
+  const hoverHandler = () => {
+    setIsHover(true);
+    console.log("hello")
+  }
 
 
   return (
@@ -71,12 +76,13 @@ export default function Navbar() {
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
 
-          <Popover className="relative ">
+          <Popover className="relative "  >
+          <div onMouseOver ={hoverHandler} >
             <Popover.Button className="flex  items-center gap-x-1 text-lg font-semibold leading-6 text-gray-900" >
-              Home
+             Home
               <ChevronDownIcon className="h-5 w-5 flex-none text-gray-400 " aria-hidden="true" />
             </Popover.Button>
-           
+            { hover ?
                 <Transition
                   as={Fragment}
                   enter="transition ease-out duration-200"
@@ -109,8 +115,9 @@ export default function Navbar() {
 
                   </Popover.Panel>
                 </Transition>
-              
-            
+          :null
+}        
+          </div>
           </Popover>
 
           <a href="#" className="text-lg font-semibold leading-6 text-gray-900">
@@ -203,7 +210,7 @@ export default function Navbar() {
           </a>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-lg bg-blue-700 rounded-full hover:bg-purple-700 px-6 py-4 font-semibold leading-4 text-white">
+          <a href="#" className="text-lg bg-sky-600 rounded-full hover:bg-purple-700 px-6 py-4 font-semibold leading-4 text-white">
             Start Project
           </a>
         </div>
