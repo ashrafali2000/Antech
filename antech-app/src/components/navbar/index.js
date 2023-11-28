@@ -82,7 +82,8 @@ export default function Navbar() {
              Home
               <ChevronDownIcon className="h-5 w-5 flex-none text-gray-400 " aria-hidden="true" />
             </Popover.Button>
-            { hover ?
+            { hover &&
+            (
                 <Transition
                   as={Fragment}
                   enter="transition ease-out duration-200"
@@ -115,7 +116,7 @@ export default function Navbar() {
 
                   </Popover.Panel>
                 </Transition>
-          :null
+            )
 }        
           </div>
           </Popover>
