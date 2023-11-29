@@ -5,6 +5,7 @@ import "react-multi-carousel/lib/styles.css";
 import aboutImg1 from "../../../public/images/about4-t1.png"
 import aboutImg2 from "../../../public/images/about4-t2.png"
 import aboutImg3 from "../../../public/images/about4-t3.png"
+import feature1 from "../../../public/images/feature5-31.png"
 
 const imagesUrlShirts = [
     {
@@ -60,9 +61,12 @@ export default function Bsolution() {
 
        <div className="bg-white p-10 w-[360px] h-[380px] ">
        <Image 
-          className="md:w-[250px] md:h-[200px] w-[200px] h-[200px]  object-cover object-center"
+          className="md:w-[250px] md:h-[200px] w-[200px] h-[200px] relative object-cover object-center"
           src={imagesUrlShirts[0].url}
           />
+          <div className="absolute bt-white rounded-full p-5">
+          <Image src={feature1} ></Image>
+          </div>
           <p className="text-3xl font-semibold py-3">Network Protection</p>
           <p>This is our sKielse adn dsfdsf dsfsdosdf sksdjfosd afjodsjf  dsfjo dsfkdshfio sdfhiosdo</p>
         </div> 
