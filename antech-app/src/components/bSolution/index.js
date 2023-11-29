@@ -40,9 +40,11 @@ const responsive = {
 };
 export default function Bsolution() {
     return(
-        <div className="pt-40 px-16">
-
-        <Carousel
+        <div className="pt-20 px-16 bg-blue-500 mt-32">
+ <p className="text-white text-2xl  text-center">Technology solutions</p>
+ <p className="text-white text-5xl font-semibold  text-center mt-3">We Provide IT & Business Solutions
+ </p>
+        <Carousel className="mt-16"
         responsive={responsive}
         autoPlay={true}
         swipeable={true}
@@ -51,14 +53,68 @@ export default function Bsolution() {
         infinite={true}
         partialVisible={false}
         >
-        {imagesUrlShirts.map((img) => (
-          <div key={Math.random()}>
-            <Image
-              className="md:w-[300px] md:h-[300px] w-[200px] h-[200px]  object-cover object-center"
-              src={img.url}
-              />
+        {/* {imagesUrlShirts.map((img) => (
+          <div key={Math.random()} className="bg-white p-10 flex gap-20">
           </div>
-        ))}
+        ))} */}
+
+       <div className="bg-white p-10 w-[360px] h-[380px] ">
+       <Image 
+          className="md:w-[250px] md:h-[200px] w-[200px] h-[200px]  object-cover object-center"
+          src={imagesUrlShirts[0].url}
+          />
+          <p className="text-3xl font-semibold py-3">Network Protection</p>
+          <p>This is our sKielse adn dsfdsf dsfsdosdf sksdjfosd afjodsjf  dsfjo dsfkdshfio sdfhiosdo</p>
+        </div> 
+       <div className="bg-white p-10 w-[360px] h-[380px] ">
+       <Image 
+          className="md:w-[250px] md:h-[200px] w-[200px] h-[200px]  object-cover object-center"
+          src={imagesUrlShirts[1].url}
+          />
+          <p className="text-3xl font-semibold py-3">Product Development</p>
+          <p>This is our sKielse adn dsfdsf dsfsdosdf sksdjfosd afjodsjf  dsfjo dsfkdshfio sdfhiosdo</p>
+
+        </div> 
+       <div className="bg-white p-10 w-[360px] h-[380px] ">
+       <Image
+          className="md:w-[250px] md:h-[200px] w-[200px] h-[200px]  object-cover object-center"
+          src={imagesUrlShirts[2].url}
+          />
+          <p className="text-3xl font-semibold py-3">Digital Marketing</p>
+
+          <p>This is our sKielse adn dsfdsf dsfsdosdf sksdjfosd afjodsjf  dsfjo dsfkdshfio sdfhiosdo</p>
+
+        </div> 
+       <div className="bg-white p-10 w-[360px] h-[380px] ">
+       <Image
+          className="md:w-[250px] md:h-[200px] w-[200px] h-[200px]  object-cover object-center"
+          src={imagesUrlShirts[3].url}
+          />
+          <p className="text-3xl font-semibold py-3">User Research</p>
+
+          <p>This is our sKielse adn dsfdsf dsfsdosdf sksdjfosd afjodsjf  dsfjo dsfkdshfio sdfhiosdo</p>
+
+        </div> 
+       <div className="bg-white p-10 w-[360px] h-[380px] ">
+       <Image
+          className="md:w-[250px] md:h-[200px] w-[200px] h-[200px]  object-cover object-center"
+          src={imagesUrlShirts[1].url}
+          />
+          <p className="text-3xl font-semibold py-3">SEM Research</p>
+
+          <p>This is our sKielse adn dsfdsf dsfsdosdf sksdjfosd afjodsjf  dsfjo dsfkdshfio sdfhiosdo</p>
+
+        </div> 
+       <div className="bg-white p-10 w-[360px] h-[380px] ">
+       <Image
+          className="md:w-[250px] md:h-[200px] w-[200px] h-[200px]  object-cover object-center"
+          src={imagesUrlShirts[2].url}
+          />
+          <p className="text-3xl font-semibold py-3">Product Summery</p>
+
+          <p>This is our sKielse adn dsfdsf dsfsdosdf sksdjfosd afjodsjf  dsfjo dsfkdshfio sdfhiosdo</p>
+
+        </div> 
       </Carousel>
         </div>
     )
