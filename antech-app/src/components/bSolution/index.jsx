@@ -65,9 +65,9 @@ const responsive = {
 export default function Bsolution() {
   return (
     <div className="relative">
-      <div className="pt-20 px-16 bg-blue-500 pb-40 mt-32">
+      <div className="pt-20 relative px-16 bg-blue-500 pb-40 ">
         <p className="text-white text-2xl  text-center">Technology solutions</p>
-        <p className="text-white text-5xl font-semibold  text-center mt-3">We Provide IT & Business Solutions
+        <p className="text-white text-4xl md-text-5xl font-semibold  text-center mt-3">We Provide IT & Business Solutions
         </p>
         <Carousel className="mt-16 mx-auto"
           responsive={responsive}
@@ -78,10 +78,7 @@ export default function Bsolution() {
           infinite={true}
           partialVisible={false}
         >
-          {/* {imagesUrlShirts.map((img) => (
-          <div key={Math.random()} className="bg-white p-10 flex gap-20">
-          </div>
-        ))} */}
+      
 
           <div className="bg-white p-10 w-[360px] h-[460px] group transition-all">
             <Image
@@ -170,9 +167,9 @@ export default function Bsolution() {
 
           </div>
         </Carousel>
-      </div>
-      {/* Project Counter */}
-      <div className="bg-gray-200">
+
+        {/* Counter */}
+      <div className="bg-white  py-8  absolute top-[860px] md:top-[760px] -ml-24 md:ml-1">
         <div className=" px-16 bg-white pb-5  mx-16 pt-10 flex flex-wrap  gap-32 justify-center">
           <div className="relative flex ">
             <div className="-ml-14 md:me-28 -mt-3 transform  w-22 flex  h-22 absolute rounded-full 
@@ -220,9 +217,10 @@ export default function Bsolution() {
           </div>
         </div>
       </div>
+      </div>
 
       {/* Second Carsoal */}
-      <div className=" px-16  bg-gray-100 pb-40">
+      <div className=" px-16 pt-32  bg-gray-100 pb-40 mt-[700px] md:mt-2">
         <Carousel className="mt-16"
           responsive={responsive}
           autoPlay={true}

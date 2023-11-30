@@ -16,33 +16,33 @@ export default function WorkProcess () {
        <Image src={img1} alt='kuch b nahi' width={400}  height={400} ></Image>
        <div className='transition-transform transform group-hover:scale-90 rounded-full w-[80px] h-[80px] border-white border-8 bg-blue-500 text-white font-bold flex justify-center items-center font-bold text-[20px] absolute top-8 z-10 left-64'>01</div>
         <div
-            className="w-64 flex flex-col h-64 rounded-full absolute left-8 top-6
-            items-center justify-center  
+            className="w-64 flex flex-col h-64 rounded-full absolute left-8 top-7
+            items-center justify-center  text-center
             bg-white text-gray-700  font-bold shadow-lg shadow-blue-200 p-8"> 
-                <p className='text-lg'>Create a Plan</p>
-        <p>There are many variation of passages of Lorem Ips available, but them</p>
+                <p className='text-2xl lg:text-2xl font-semibold pb-2'>Create a Plan</p>
+        <p className='text-md text-gray-600'>There are many variation of passages of Lorem Ips available, but them</p>
         </div>
             </div>
         <div className='w-96 h-96 relative group transition-all' > 
        <Image src={img1}  alt='kuch b nahi'  width={400} height={400}></Image>
        <div className='transition-transform transform group-hover:scale-90 rounded-full w-[80px] h-[80px] border-white border-8 bg-blue-500 text-white font-bold flex justify-center items-center font-bold text-[20px] absolute top-8 z-10 left-64'>02</div>
        <div
-            class="w-64 flex flex-col h-64 rounded-full absolute left-8 top-6
-            items-center justify-center  
+            class="w-64 flex flex-col h-64 rounded-full absolute left-8 top-7
+            items-center justify-center  text-center
             bg-white text-gray-700  font-bold shadow-lg shadow-blue-200 p-8"> 
-                <p className='text-lg'>Create a Plan</p>
-        <p>There are many variation of passages of Lorem Ips available, but them</p>
+                <p className='text-2xl lg:text-2xl font-semibold pb-2'>Start Working</p>
+        <p className='text-md text-gray-600'>There are many variation of passages of Lorem Ips available, but them</p>
         </div>
         </div>
-        <div className='w-80 h-00 relative group transition-all'> 
+        <div className='w-80 h-00 hidden lg:block relative group transition-all'> 
        <Image src={img2}  alt='kuch b nahi'  width={400} height={400}></Image>
        <div className='transition-transform transform group-hover:scale-90 rounded-full w-[80px] h-[80px] border-white border-8 bg-blue-500 text-white font-bold flex justify-center items-center font-bold text-[20px] absolute top-8 z-10 left-64'>03</div>
        <div
-            class="w-64 flex flex-col h-64 rounded-full absolute left-8 top-6
-            items-center justify-center  
+            class="w-64 flex flex-col h-64 rounded-full absolute left-8 top-7
+            items-center justify-center  text-center
             bg-white text-gray-700  font-bold shadow-lg shadow-blue-200 p-8"> 
-                <p className='text-lg'>Create a Plan</p>
-        <p>There are many variation of passages of Lorem Ips available, but them</p>
+                <p className='text-2xl lg:text-2xl font-semibold pb-2'>Publish Busines</p>
+        <p className='text-md text-gray-600'>There are many variation of passages of Lorem Ips available, but them</p>
         </div>
         </div>
     </div>

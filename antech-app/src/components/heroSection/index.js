@@ -4,11 +4,11 @@ export default function HeroSection() {
     return (
       
       <div className="relative overflow-hidden bg-gray-200 ">
-        <div className="pb-32 md:pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
-          <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
-            <div className="sm:max-w-lg md:pl-16 pl-8">
-                <p className="text-blue-600 text-[40px]">IT services Agency</p>
-              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+        <div className="pb-32  flex justify-center text-center lg:text-start lg:block md:pb-40 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
+          <div className="relative mx-auto max-w-7xl px-4  sm:static sm:px-6 lg:px-8">
+            <div className="md:max-w-lg md:pl-16 pl-8">
+                <p className="text-blue-600 text-[32px] lg-[40px] ">IT services Agency</p>
+              <h1 className="text-4xl font-bold tracking-tight text-gray-900 md:text-5xl lg:text-6xl">
               Awesome IT Services for Your Business
               </h1>
               <p className="mt-4 text-xl text-gray-500">
@@ -19,7 +19,7 @@ export default function HeroSection() {
               <div className="mt-10 md:pl-16 pl-8">
                 {/* Decorative image grid */}
                
-                  <div className="absolute pr-24 transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8 hidden md:block">
+                  <div className="absolute pr-24 transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8 hidden lg:block">
                        <Image  src="https://quomodothemes.website/html/antech/assets/images/hero-img/3.webp"
                             alt="Hero1 Image"
                             width={400}

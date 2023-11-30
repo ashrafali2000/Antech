@@ -8,16 +8,15 @@ import Image from "next/image"
 export default function DisCompany() {
     return (
       <div className="relative overflow-hidden bg-gray-100 px-8">
-        <div className="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
-          <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
+        <div className="pb-16 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
+          <div className="relative mx-auto  flex flex-wrap justify-center lg:gap-40  max-w-7xl px-4  sm:px-6 lg:px-8">
             <div className="sm:max-w-lg">
-            <p className="text-blue-600 text-[40px]">IT services Agency</p>
+            <p className="text-blue-600 text-[24px] ">Discover Our Company</p>
               <h1 className="text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
               Bringing New IT Business Solutions And Ideas
               </h1>
-              <p className="mt-4 text-xl text-gray-500">
-                This year, our new summer collection will shelter you from the harsh elements of a world that doesn't care
-                if you live or die.
+              <p className="mt-4 text-xl text-gray-500 ">
+              There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form, by injecte humour, or randomised words which
               </p>
             <div className="relative flex mt-2">
                 <div className="flex  w-50 items-center">
@@ -45,38 +44,23 @@ export default function DisCompany() {
                   Learn more
                 </a>
             </div>
-            <div 
-            // style={{
-            //     backgroundImage:`url(${bgImage})`,
-            //         backgroundSize: 'cover',  
-            //         backgroundRepeat: 'no-repeat',
-            //         width: '100%',
-            //         height: '300px',
-            // }}
-            >
-              <div className="mt-10">
-                {/* Decorative image grid */}
-                <div
+           
+            
                 
-                  aria-hidden="true"
-                  className="pointer-events-none lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl"
-                >
-                  <div className="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
-                    <div className="flex items-center space-x-6 lg:space-x-8">
-                      <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                        
-                        
-                      </div>
+              
+                
+                    <div className="flex items-center space-x-6 lg:space-x-8 pt-16 md:pt-5">
+                 
                       <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                       
-                        <div className="h-64 w-50 overflow-hidden rounded-lg">
+                        <div className="h-74 w-60  overflow-hidden rounded-lg">
                           <Image
                             src={aboutImg1}
                             alt=""
                             className="h-full w-full object-cover object-center"
                           />
                         </div>
-                        <div className="h-44 w-60 overflow-hidden rounded-lg">
+                        <div className="h-64 w-60 overflow-hidden rounded-lg">
                           <Image
                             src={aboutImg3}
                             alt=""
@@ -85,22 +69,16 @@ export default function DisCompany() {
                         </div>
                       </div>
                       <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                        <div className="h-80 w-44 overflow-hidden rounded-lg">
+                        <div className="h-80 w-80overflow-hidden rounded-lg">
                           <Image
                          src={aboutImg2}
                             alt=""
                             className="h-full w-full object-cover object-center"
                           />
                         </div>
-                       
-                      </div>
-                    </div>
-                  </div>
-                </div>
-  
-             
+                      </div> 
               </div>
-            </div>
+            {/* </div> */}
           </div>
         </div>
       </div>
