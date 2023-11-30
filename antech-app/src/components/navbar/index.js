@@ -56,7 +56,7 @@ export default function Navbar() {
 
 
   return (
-    <header className="bg-white">
+    <header className="bg-white mx-auto overflow-hidden">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
@@ -224,7 +224,7 @@ export default function Navbar() {
               <span className="sr-only">Your Company</span>
               <img
                 className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                src="https://quomodothemes.website/html/antech/assets/images/logos/logo-blue.svg"
                 alt=""
               />
             </a>

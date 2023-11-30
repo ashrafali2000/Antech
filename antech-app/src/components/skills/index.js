@@ -8,7 +8,7 @@ export default function Skills() {
         <div>
             <div className="flex flex-wrap gap-32 px-16 bg-gray-100">
                 
-            <div className="flex items-center space-x-6 lg:space-x-8">
+            {/* <div className="flex items-center space-x-6 lg:space-x-8">
                       <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                       </div>
                       <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
@@ -38,9 +38,9 @@ export default function Skills() {
                         </div>
                        
                       </div>
-                    </div>
+                    </div> */}
                     {/* Right container */}
-                <div className="pt-8">
+                {/* <div className="pt-8">
 <p className="text-lg text-blue-500">Our Skills</p>
 <p className=" text-5xl font-semibold w-[500px] ">
 We Are Increasing Business Success With Technology
@@ -78,7 +78,7 @@ We Are Increasing Business Success With Technology
     </div>
 </div>
 </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )

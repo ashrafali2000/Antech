@@ -1,12 +1,12 @@
-import Image from "next/image";
+
 
 export default function Footer(){
-    return(<div className="bg-black p-20 ">
+    return(<div className="bg-black pt-20 pr-20 pl-20 pb-5 ">
 
-<div className="flex justify-between">
+<div className="flex flex-wrap justify-between">
         <div>
-            <Image src={""}></Image>
-    <p className="text-2xl text-gray-400 w-[400px] font-semibold">There are many variatons of pass Ipsum available, but the majority alteration in some form, by inject randomised words</p>
+        <img className="h-12 w-auto" src="https://quomodothemes.website/html/antech/assets/images/logos/logo-blue.svg" alt="" />
+    <p className="text-2xl text-gray-400 wA-auto font-semibold">There are many variatons of pass Ipsum available, but the majority alteration in some form, by inject randomised words</p>
         </div>
 
         <div>
@@ -36,7 +36,7 @@ Apps Development</p>
 
         </div>
         <hr className="w-full  bg-gray-600 mt-5"/>
-        <div className="flex justify-between pt-5 mx-32">
+        <div className="flex flex-wrap justify-center md:justify-between pt-5 md:mx-32">
             <p className="text-lg  text-gray-400">2022 © All rights reserved by QuomodoTheme</p>
             <p  className="text-lg  text-gray-400" >Privacy Policy |
 Terms & Condit ions</p>

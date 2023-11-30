@@ -3,10 +3,10 @@ export default function HeroSection() {
 
     return (
       
-      <div className="relative overflow-hidden ">
-        <div className="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
+      <div className="relative overflow-hidden bg-gray-200 ">
+        <div className="pb-32 md:pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
           <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
-            <div className="sm:max-w-lg pl-16">
+            <div className="sm:max-w-lg md:pl-16 pl-8">
                 <p className="text-blue-600 text-[40px]">IT services Agency</p>
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
               Awesome IT Services for Your Business
@@ -16,10 +16,10 @@ export default function HeroSection() {
               </p>
             </div>
             <div>
-              <div className="mt-10 pl-16">
+              <div className="mt-10 md:pl-16 pl-8">
                 {/* Decorative image grid */}
                
-                  <div className="absolute pr-24 transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
+                  <div className="absolute pr-24 transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8 hidden md:block">
                        <Image  src="https://quomodothemes.website/html/antech/assets/images/hero-img/3.webp"
                             alt="Hero1 Image"
                             width={400}

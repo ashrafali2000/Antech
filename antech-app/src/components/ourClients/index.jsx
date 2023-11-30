@@ -14,12 +14,12 @@ const contentStyle = {
   background: '#364d79',
 };
 const OurClients = () => (
- <div className="bg-gray-200 flex flex-wrap  sm:gap-16 md:gap-80 pt-32 pb-32">
+ <div className="bg-sky-100 flex flex-wrap  sm:gap-16 md:gap-80 pt-32 pb-32">
   <div className="pl-32 pt-20">
   <p className="text-blue-600 text-2xl">Testimonial</p>
   <p className="font-semibold text-4xl pb-5">Our Cliendts Say</p>
   <Image src={commetnsLeft}></Image>
-  <p className="text-gray-700 text-sm w-80">ther are some cgffg vxfv dfdfgfdfg gfdgdfg ffdgfg fffgfg gfghdfg fgfgg utyugj gfgfg ff fgdfg sdfsdffdf  omments here and the lag fdfk sdfdkj coodf sdffjio dis kdfdsfk dfdfi</p>
+  <p className="text-gray-700 text-sm md:w-80 w-32" >ther are some cgffg vxfv dfdfgfdfg gfdgdfg ffdgfg fffgfg gfghdfg fgfgg utyugj gfgfg ff fgdfg sdfsdffdf  omments here and the lag fdfk sdfdkj coodf sdffjio dis kdfdsfk dfdfi</p>
     <Image src={commetnsRight}></Image>
   <div className="flex gap-5 pt-8">
    <Image src={aboutImg13} className="w-24 h-24 rounded-full"></Image>
@@ -32,7 +32,7 @@ const OurClients = () => (
   {/* Right div */}
 
 
-             <div className="flex flex-col flex-wrap">
+             <div className="flex flex-col flex-wrap hidden md:block">
               <div className="flex">
              <Image src={aboutImg13} className="w-60 h-60 rounded-full"></Image>
              <Image src={aboutImg13} className="w-32 h-32 rounded-full"></Image>
